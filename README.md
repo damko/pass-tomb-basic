@@ -54,6 +54,8 @@ you can customize the paths as you like.
 In your terminal:
 
 	source ~/.bashrc
+	mkdir -p ${GRAVEYARD}
+	mkdir -p ${GRAVEYARD_KEYS}
 
 ## Graveyard configuration
 
@@ -177,5 +179,6 @@ The development of this extension is in early stage but it's very simple code so
 
 * you can not create tomb files using this extension, so you have to create them using `tomb`
 * you can not automatically close your pass-tombs after some time
+* no bash autocompletion for the "tomb-" commands
 * this extension, and `pass` and `tomb` as well, works only on unix based systems
 
