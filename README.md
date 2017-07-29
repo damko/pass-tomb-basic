@@ -1,6 +1,24 @@
 Pass Tomb Basic
 ===
 
+<!-- TOC -->
+
+- [Introduction](#introduction)
+- [Install](#install)
+    - [Graveyard configuration](#graveyard-configuration)
+- [Usage](#usage)
+    - [Open a pass-tomb](#open-a-pass-tomb)
+    - [Multiple identities](#multiple-identities)
+    - [List your open pass-tombs](#list-your-open-pass-tombs)
+    - [Close a pass-tomb](#close-a-pass-tomb)
+- [Uninstall](#uninstall)
+- [Status](#status)
+- [Limitations](#limitations)
+
+<!-- /TOC -->
+
+# Introduction
+
 This is an extension for `pass` and it supports any `tomb` file.
 
 [Pass](https://www.passwordstore.org/) is the unix standard password manager.
@@ -151,11 +169,11 @@ To uninstall this extension:
 
 	sudo rm /usr/lib/password-store/extensions/tomb-*.bash
 
-## Status
+# Status
 
 The development of this extension is in early stage but it's very simple code so it can be already used in "production", meaning that you can use it to open and close your pass-tombs without any issue.
 
-## Limitations
+# Limitations
 
 * you can not create tomb files using this extension, so you have to create them using `tomb`
 * you can not automatically close your pass-tombs after some time
